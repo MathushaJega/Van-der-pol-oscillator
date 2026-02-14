@@ -18,6 +18,6 @@ The Van der Pol oscillator is a non-conservative oscillator with non-linear damp
 * `vdp_tb.v` - Testbench that generates the clock, reset, and logs output data to `results.txt`.
 
 ## 📊 Parameters
-* **Mu ($\mu$)**: 1.0 (Damping coefficient)
-* **Time Step ($dt$)**: 0.1
-* **Initial Condition ($x_0$)**: 1.0
+* **Mu (μ) **: 1.0 (Damping coefficient)
+* **Time Step (dt)**: 0.1
+* **Initial Condition(x₀)**: 1.0
