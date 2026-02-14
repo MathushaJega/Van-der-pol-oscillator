@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb  1 18:50:35 2026
+# Process ID: 16648
+# Current directory: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11296 C:\My Folder\university\7 th semi\EE587-Digital\Isuru Sir\Van_der_Pol_Oscillator\Van_der_Pol_Oscillator.xpr
+# Log file: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vivado.log
+# Journal file: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator\vivado.jou
+# Running On: LAPTOP-L38RM2IR, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16965 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source tb_top_module.tcl
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+sim close
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source top_module.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb.tcl
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb_debug.tcl
+launch_simulation
+close_sim
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb_simple.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb.tcl
+close_sim

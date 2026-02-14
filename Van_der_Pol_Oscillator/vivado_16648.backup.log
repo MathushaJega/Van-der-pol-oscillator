@@ -1,0 +1,836 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb  1 18:50:35 2026
+# Process ID: 16648
+# Current directory: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11296 C:\My Folder\university\7 th semi\EE587-Digital\Isuru Sir\Van_der_Pol_Oscillator\Van_der_Pol_Oscillator.xpr
+# Log file: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vivado.log
+# Journal file: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator\vivado.jou
+# Running On: LAPTOP-L38RM2IR, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16965 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.xpr}
+WARNING: [Board 49-26] cannot add Board Part www.digilentinc.com:pynq-z1:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/pynq-z1/1.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:20 . Memory (MB): peak = 1102.723 ; gain = 306.992
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_module'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_module
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v:24]
+ERROR: [VRFC 10-8530] module 'tb_top_module' is ignored due to previous errors [C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_module'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_module
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_module_behav xil_defaultlib.tb_top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_module_behav xil_defaultlib.tb_top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.tb_top_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_module_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_module_behav -key {Behavioral:sim_1:Functional:tb_top_module} -tclbatch {tb_top_module.tcl} -view {{C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+WARNING: Simulation object /vdp_tb/clk was not found in the design.
+WARNING: Simulation object /vdp_tb/reset was not found in the design.
+WARNING: Simulation object /vdp_tb/x_out was not found in the design.
+WARNING: Simulation object /vdp_tb/file_handle was not found in the design.
+source tb_top_module.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_module_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1146.258 ; gain = 23.812
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+sim close
+ERROR: [Common 17-165] Too many positional options when parsing 'close', please type 'sim_wait_for_processing -help' for usage info.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_module_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_module_behav -key {Behavioral:sim_1:Functional:top_module} -tclbatch {top_module.tcl} -view {{C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+WARNING: Simulation object /vdp_tb/clk was not found in the design.
+WARNING: Simulation object /vdp_tb/reset was not found in the design.
+WARNING: Simulation object /vdp_tb/x_out was not found in the design.
+WARNING: Simulation object /vdp_tb/file_handle was not found in the design.
+source top_module.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_module_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'vdp_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vdp_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdp_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_behav xil_defaultlib.vdp_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_behav xil_defaultlib.vdp_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.vdp_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vdp_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vdp_tb_behav -key {Behavioral:sim_1:Functional:vdp_tb} -tclbatch {vdp_tb.tcl} -view {{C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+WARNING: Simulation object /vdp_tb/file_handle was not found in the design.
+source vdp_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+==========================================
+Van der Pol Oscillator Simulation
+==========================================
+Parameters:
+  ? = 1.0
+  x(0) = 2.0
+  u(0) = 0
+  dt = 0.05
+  Simulation time = 100 units
+==========================================
+[100000 ns] Reset released. Simulation started.
+Step 0: t = 0.00, x = 2.000000
+Step 20: t = 1.00, x = 1.530273
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vdp_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb_debug'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb_debug'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'vdp_tb_debug' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vdp_tb_debug_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdp_tb_debug
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_debug_behav xil_defaultlib.vdp_tb_debug xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_debug_behav xil_defaultlib.vdp_tb_debug xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.vdp_tb_debug
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vdp_tb_debug_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vdp_tb_debug_behav -key {Behavioral:sim_1:Functional:vdp_tb_debug} -tclbatch {vdp_tb_debug.tcl} -view {{C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+WARNING: Simulation object /vdp_tb/clk was not found in the design.
+WARNING: Simulation object /vdp_tb/reset was not found in the design.
+WARNING: Simulation object /vdp_tb/x_out was not found in the design.
+WARNING: Simulation object /vdp_tb/file_handle was not found in the design.
+source vdp_tb_debug.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+========== STARTING SIMULATION ==========
+Time: 0 ns
+Time=0ns: reset=1, x_out=       2048, state=00
+Cycle           1: reset=1, x_out=       2048, state=00
+Cycle           2: reset=1, x_out=       2048, state=00
+Cycle           3: reset=1, x_out=       2048, state=00
+Cycle           4: reset=1, x_out=       2048, state=00
+Cycle           5: reset=1, x_out=       2048, state=00
+Cycle           6: reset=1, x_out=       2048, state=00
+Cycle           7: reset=1, x_out=       2048, state=00
+Cycle           8: reset=1, x_out=       2048, state=00
+Cycle           9: reset=1, x_out=       2048, state=00
+Cycle          10: reset=1, x_out=       2048, state=00
+Reset released at 100000 ns
+Time=100000ns: reset=0, x_out=       2048, state=00
+Cycle          11: reset=0, x_out=       2048, state=00
+Time=105000ns: reset=0, x_out=       2048, state=01
+Cycle          12: reset=0, x_out=       2048, state=01
+Time=115000ns: reset=0, x_out=       2048, state=10
+Cycle          13: reset=0, x_out=       2048, state=10
+Time=125000ns: reset=0, x_out=       2048, state=11
+Cycle          14: reset=0, x_out=       2048, state=11
+Time=135000ns: reset=0, x_out=       2048, state=00
+Cycle          15: reset=0, x_out=       2048, state=00
+Time=145000ns: reset=0, x_out=       2048, state=01
+Cycle          16: reset=0, x_out=       2048, state=01
+Time=155000ns: reset=0, x_out=       2048, state=10
+Cycle          17: reset=0, x_out=       2048, state=10
+Time=165000ns: reset=0, x_out=       2048, state=11
+Cycle          18: reset=0, x_out=       2048, state=11
+Time=175000ns: reset=0, x_out=       2043, state=00
+Cycle          19: reset=0, x_out=       2043, state=00
+Time=185000ns: reset=0, x_out=       2043, state=01
+Cycle          20: reset=0, x_out=       2043, state=01
+Time=195000ns: reset=0, x_out=       2043, state=10
+Cycle          21: reset=0, x_out=       2043, state=10
+Time=205000ns: reset=0, x_out=       2043, state=11
+Cycle          22: reset=0, x_out=       2043, state=11
+Time=215000ns: reset=0, x_out=       2034, state=00
+Cycle          23: reset=0, x_out=       2034, state=00
+Time=225000ns: reset=0, x_out=       2034, state=01
+Cycle          24: reset=0, x_out=       2034, state=01
+Time=235000ns: reset=0, x_out=       2034, state=10
+Cycle          25: reset=0, x_out=       2034, state=10
+Time=245000ns: reset=0, x_out=       2034, state=11
+Cycle          26: reset=0, x_out=       2034, state=11
+Time=255000ns: reset=0, x_out=       2022, state=00
+Cycle          27: reset=0, x_out=       2022, state=00
+Time=265000ns: reset=0, x_out=       2022, state=01
+Cycle          28: reset=0, x_out=       2022, state=01
+Time=275000ns: reset=0, x_out=       2022, state=10
+Cycle          29: reset=0, x_out=       2022, state=10
+Time=285000ns: reset=0, x_out=       2022, state=11
+Cycle          30: reset=0, x_out=       2022, state=11
+Time=295000ns: reset=0, x_out=       2006, state=00
+Cycle          31: reset=0, x_out=       2006, state=00
+Time=305000ns: reset=0, x_out=       2006, state=01
+Cycle          32: reset=0, x_out=       2006, state=01
+Time=315000ns: reset=0, x_out=       2006, state=10
+Cycle          33: reset=0, x_out=       2006, state=10
+Time=325000ns: reset=0, x_out=       2006, state=11
+Cycle          34: reset=0, x_out=       2006, state=11
+Time=335000ns: reset=0, x_out=       1988, state=00
+Cycle          35: reset=0, x_out=       1988, state=00
+Time=345000ns: reset=0, x_out=       1988, state=01
+Cycle          36: reset=0, x_out=       1988, state=01
+Time=355000ns: reset=0, x_out=       1988, state=10
+Cycle          37: reset=0, x_out=       1988, state=10
+Time=365000ns: reset=0, x_out=       1988, state=11
+Cycle          38: reset=0, x_out=       1988, state=11
+Time=375000ns: reset=0, x_out=       1967, state=00
+Cycle          39: reset=0, x_out=       1967, state=00
+Time=385000ns: reset=0, x_out=       1967, state=01
+Cycle          40: reset=0, x_out=       1967, state=01
+Time=395000ns: reset=0, x_out=       1967, state=10
+Cycle          41: reset=0, x_out=       1967, state=10
+Time=405000ns: reset=0, x_out=       1967, state=11
+Cycle          42: reset=0, x_out=       1967, state=11
+Time=415000ns: reset=0, x_out=       1944, state=00
+Cycle          43: reset=0, x_out=       1944, state=00
+Time=425000ns: reset=0, x_out=       1944, state=01
+Cycle          44: reset=0, x_out=       1944, state=01
+Time=435000ns: reset=0, x_out=       1944, state=10
+Cycle          45: reset=0, x_out=       1944, state=10
+Time=445000ns: reset=0, x_out=       1944, state=11
+Cycle          46: reset=0, x_out=       1944, state=11
+Time=455000ns: reset=0, x_out=       1920, state=00
+Cycle          47: reset=0, x_out=       1920, state=00
+Time=465000ns: reset=0, x_out=       1920, state=01
+Cycle          48: reset=0, x_out=       1920, state=01
+Time=475000ns: reset=0, x_out=       1920, state=10
+Cycle          49: reset=0, x_out=       1920, state=10
+Time=485000ns: reset=0, x_out=       1920, state=11
+Cycle          50: reset=0, x_out=       1920, state=11
+Time=495000ns: reset=0, x_out=       1894, state=00
+Cycle          51: reset=0, x_out=       1894, state=00
+Time=505000ns: reset=0, x_out=       1894, state=01
+Cycle          52: reset=0, x_out=       1894, state=01
+Time=515000ns: reset=0, x_out=       1894, state=10
+Cycle          53: reset=0, x_out=       1894, state=10
+Time=525000ns: reset=0, x_out=       1894, state=11
+Cycle          54: reset=0, x_out=       1894, state=11
+Time=535000ns: reset=0, x_out=       1867, state=00
+Cycle          55: reset=0, x_out=       1867, state=00
+Time=545000ns: reset=0, x_out=       1867, state=01
+Cycle          56: reset=0, x_out=       1867, state=01
+Time=555000ns: reset=0, x_out=       1867, state=10
+Cycle          57: reset=0, x_out=       1867, state=10
+Time=565000ns: reset=0, x_out=       1867, state=11
+Cycle          58: reset=0, x_out=       1867, state=11
+Time=575000ns: reset=0, x_out=       1838, state=00
+Cycle          59: reset=0, x_out=       1838, state=00
+Time=585000ns: reset=0, x_out=       1838, state=01
+Cycle          60: reset=0, x_out=       1838, state=01
+Time=595000ns: reset=0, x_out=       1838, state=10
+Cycle          61: reset=0, x_out=       1838, state=10
+Time=605000ns: reset=0, x_out=       1838, state=11
+Cycle          62: reset=0, x_out=       1838, state=11
+Time=615000ns: reset=0, x_out=       1808, state=00
+Cycle          63: reset=0, x_out=       1808, state=00
+Time=625000ns: reset=0, x_out=       1808, state=01
+Cycle          64: reset=0, x_out=       1808, state=01
+Time=635000ns: reset=0, x_out=       1808, state=10
+Cycle          65: reset=0, x_out=       1808, state=10
+Time=645000ns: reset=0, x_out=       1808, state=11
+Cycle          66: reset=0, x_out=       1808, state=11
+Time=655000ns: reset=0, x_out=       1777, state=00
+Cycle          67: reset=0, x_out=       1777, state=00
+Time=665000ns: reset=0, x_out=       1777, state=01
+Cycle          68: reset=0, x_out=       1777, state=01
+Time=675000ns: reset=0, x_out=       1777, state=10
+Cycle          69: reset=0, x_out=       1777, state=10
+Time=685000ns: reset=0, x_out=       1777, state=11
+Cycle          70: reset=0, x_out=       1777, state=11
+Time=695000ns: reset=0, x_out=       1745, state=00
+Cycle          71: reset=0, x_out=       1745, state=00
+Time=705000ns: reset=0, x_out=       1745, state=01
+Cycle          72: reset=0, x_out=       1745, state=01
+Time=715000ns: reset=0, x_out=       1745, state=10
+Cycle          73: reset=0, x_out=       1745, state=10
+Time=725000ns: reset=0, x_out=       1745, state=11
+Cycle          74: reset=0, x_out=       1745, state=11
+Time=735000ns: reset=0, x_out=       1712, state=00
+Cycle          75: reset=0, x_out=       1712, state=00
+Time=745000ns: reset=0, x_out=       1712, state=01
+Cycle          76: reset=0, x_out=       1712, state=01
+Time=755000ns: reset=0, x_out=       1712, state=10
+Cycle          77: reset=0, x_out=       1712, state=10
+Time=765000ns: reset=0, x_out=       1712, state=11
+Cycle          78: reset=0, x_out=       1712, state=11
+Time=775000ns: reset=0, x_out=       1678, state=00
+Cycle          79: reset=0, x_out=       1678, state=00
+Time=785000ns: reset=0, x_out=       1678, state=01
+Cycle          80: reset=0, x_out=       1678, state=01
+Time=795000ns: reset=0, x_out=       1678, state=10
+Cycle          81: reset=0, x_out=       1678, state=10
+Time=805000ns: reset=0, x_out=       1678, state=11
+Cycle          82: reset=0, x_out=       1678, state=11
+Time=815000ns: reset=0, x_out=       1642, state=00
+Cycle          83: reset=0, x_out=       1642, state=00
+Time=825000ns: reset=0, x_out=       1642, state=01
+Cycle          84: reset=0, x_out=       1642, state=01
+Time=835000ns: reset=0, x_out=       1642, state=10
+Cycle          85: reset=0, x_out=       1642, state=10
+Time=845000ns: reset=0, x_out=       1642, state=11
+Cycle          86: reset=0, x_out=       1642, state=11
+Time=855000ns: reset=0, x_out=       1605, state=00
+Cycle          87: reset=0, x_out=       1605, state=00
+Time=865000ns: reset=0, x_out=       1605, state=01
+Cycle          88: reset=0, x_out=       1605, state=01
+Time=875000ns: reset=0, x_out=       1605, state=10
+Cycle          89: reset=0, x_out=       1605, state=10
+Time=885000ns: reset=0, x_out=       1605, state=11
+Cycle          90: reset=0, x_out=       1605, state=11
+Time=895000ns: reset=0, x_out=       1567, state=00
+Cycle          91: reset=0, x_out=       1567, state=00
+Time=905000ns: reset=0, x_out=       1567, state=01
+Cycle          92: reset=0, x_out=       1567, state=01
+Time=915000ns: reset=0, x_out=       1567, state=10
+Cycle          93: reset=0, x_out=       1567, state=10
+Time=925000ns: reset=0, x_out=       1567, state=11
+Cycle          94: reset=0, x_out=       1567, state=11
+Time=935000ns: reset=0, x_out=       1528, state=00
+Cycle          95: reset=0, x_out=       1528, state=00
+Time=945000ns: reset=0, x_out=       1528, state=01
+Cycle          96: reset=0, x_out=       1528, state=01
+Time=955000ns: reset=0, x_out=       1528, state=10
+Cycle          97: reset=0, x_out=       1528, state=10
+Time=965000ns: reset=0, x_out=       1528, state=11
+Cycle          98: reset=0, x_out=       1528, state=11
+Time=975000ns: reset=0, x_out=       1488, state=00
+Cycle          99: reset=0, x_out=       1488, state=00
+Time=985000ns: reset=0, x_out=       1488, state=01
+Cycle         100: reset=0, x_out=       1488, state=01
+Time=995000ns: reset=0, x_out=       1488, state=10
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vdp_tb_debug_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'vdp_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vdp_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdp_tb
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v:92]
+ERROR: [VRFC 10-8530] module 'vdp_tb' is ignored due to previous errors [C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_sim
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb_simple'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'vdp_tb_simple' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vdp_tb_simple_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdp_tb_simple
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_simple_behav xil_defaultlib.vdp_tb_simple xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_simple_behav xil_defaultlib.vdp_tb_simple xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.vdp_tb_simple
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vdp_tb_simple_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vdp_tb_simple_behav -key {Behavioral:sim_1:Functional:vdp_tb_simple} -tclbatch {vdp_tb_simple.tcl} -view {{C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+WARNING: Simulation object /vdp_tb/clk was not found in the design.
+WARNING: Simulation object /vdp_tb/reset was not found in the design.
+WARNING: Simulation object /vdp_tb/x_out was not found in the design.
+WARNING: Simulation object /vdp_tb/file_handle was not found in the design.
+source vdp_tb_simple.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Starting simulation...
+x[          0] =       2048
+x[          1] =       2048
+x[          2] =       2048
+x[          3] =       2048
+x[          4] =       2048
+x[          5] =       2048
+x[          6] =       2048
+x[          7] =       2047
+x[          8] =       2046
+x[          9] =       2045
+x[         10] =       2044
+x[         11] =       2043
+x[         12] =       2042
+x[         13] =       2041
+x[         14] =       2039
+x[         15] =       2037
+x[         16] =       2035
+x[         17] =       2033
+x[         18] =       2031
+x[         19] =       2029
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vdp_tb_simple_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'vdp_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'vdp_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vdp_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdp_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_behav xil_defaultlib.vdp_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vdp_tb_behav xil_defaultlib.vdp_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" Line 1. Module top_module doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" Line 1. Module top_module doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.vdp_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vdp_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vdp_tb_behav -key {Behavioral:sim_1:Functional:vdp_tb} -tclbatch {vdp_tb.tcl} -view {{C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vdp_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  1 19:41:09 2026...

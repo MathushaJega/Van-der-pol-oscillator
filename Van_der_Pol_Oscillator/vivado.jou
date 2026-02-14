@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Feb 14 16:15:52 2026
+# Process ID: 23892
+# Current directory: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12732 C:\My Folder\university\7 th semi\EE587-Digital\Isuru Sir\Van_der_Pol_Oscillator\Van_der_Pol_Oscillator.xpr
+# Log file: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vivado.log
+# Journal file: C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator\vivado.jou
+# Running On: LAPTOP-L38RM2IR, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16965 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb.tcl
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config {C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/vdp_tb_behav.wcfg}
+source vdp_tb.tcl
+restart

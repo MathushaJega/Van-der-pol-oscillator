@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v" \
+"../../../../Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v" \
+"../../../../Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v" \
+"../../../../Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

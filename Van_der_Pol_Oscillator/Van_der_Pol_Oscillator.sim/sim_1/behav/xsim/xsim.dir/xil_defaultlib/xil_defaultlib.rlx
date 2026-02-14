@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v,1769957364,verilog,,,,vdp_tb,,,,,,,,
+C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/control_unit.v,1769957336,verilog,,C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v,,control_unit,,,,,,,,
+C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/datapath.v,1769957325,verilog,,C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v,,datapath,,,,,,,,
+C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sources_1/new/top_module.v,1769957347,verilog,,C:/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Van_der_Pol_Oscillator/Van_der_Pol_Oscillator.srcs/sim_1/new/vdp_tb.v,,top_module,,,,,,,,
